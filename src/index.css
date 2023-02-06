@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* CSS principal de la card */
+.productos{
+ 
+  border: 2px solid black;
+  width: 200px;
+  height: 260px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px;
+  margin: 20px
+}
