@@ -1,5 +1,5 @@
 
-
+/*Boton principal*/
 const Boton = (props) => {
   return (
    

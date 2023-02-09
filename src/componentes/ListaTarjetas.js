@@ -1,6 +1,7 @@
+
 import ProductosDestacados from "./ProductosDestacados"
 
-
+/* Lista de tarjetas, pasadas por props*/
 const ListaTarjetas = (props) => {
     return (<div 
     style={{

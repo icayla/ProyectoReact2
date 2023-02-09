@@ -1,6 +1,7 @@
+
+/* seccion, utilizada para el pasaje de props*/
+
 import ListaTarjetas from "./ListaTarjetas"
-
-
 
 const Seccion = (props) => {
   return (
