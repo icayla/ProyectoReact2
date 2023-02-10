@@ -1,7 +1,5 @@
 import React from 'react'
 import Boton from './Boton'
-import lentes from "../asset/img/lentes.png"
-import image from "../asset/img/image.png"
 import ListaTarjetas from './ListaTarjetas'
 import Carrito from './Carrito'
 
@@ -19,8 +17,9 @@ const ProductosDestacados = (props) => {
    
   
          <figcaption>
-          <h3 className='text-2x1 font-medium'>{props.objeto.nombre}</h3>
-          <p className="text-sm p-2 text-center tex-black-500">{props.objeto.precio}</p>
+          <h3 className='flex-auto text-lg font-semibold text-slate-800'>{props.objeto.nombre}</h3>
+          <p className="text-lg font-semibold text-black-500">{props.objeto.precio}</p>
+          <div className='w-full flex-none mt-2 order-1 text-2x font-bold text-green-600'> En stock</div>
         
          </figcaption>
 
