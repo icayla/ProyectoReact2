@@ -9,10 +9,8 @@ import Carrito from './Carrito'
 
 const ProductosDestacados = (props) => {
   return (
-    
-    <div className='grid grid-cols-1 flex-col lg:flex-row mx-10 '>  
-  
-  
+
+    <div className='grid grid-cols-1 flex-col lg:flex-row mx-10 '>
   <figure className='productos  rounded-2x1 bg-gradient-to-r from-slate-200 via-gray-300 to-stone-400 p-1 shadow-xl'>
    <div className="flex-none w-full h-30">
    <a href='#' className='block group'>
@@ -28,11 +26,9 @@ const ProductosDestacados = (props) => {
           
          </figcaption>
          <Boton/>
-       
-        
-         
           </figure>
           </div>
+      
   
   
     )

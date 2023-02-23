@@ -10,7 +10,7 @@ export const lista = [
     },
     {
       id: 2,
-      nombre: "Anteojos De Sol Moonshine Premium ",
+      nombre: "Anteojos De Sol Rolon ",
       precio: "10000$",
       urlimg:"https://img.freepik.com/foto-gratis/gafas-sol-arena_1169-59.jpg?size=626&ext=jpg"
      
@@ -18,19 +18,19 @@ export const lista = [
   
     {
       id: 3,
-      nombre: "Anteojos De Sol Baker",
+      nombre: "Anteojos De Sol Boyer",
       precio: "8000$",
       urlimg:"https://img.freepik.com/foto-gratis/gafas-sol_1203-7994.jpg?size=626&ext=jpg"
     },
     {
       id: 4,
-      nombre: "Anteojos De Sol White",
+      nombre: "Anteojos White",
       precio: "10000$",
       urlimg: "https://img.freepik.com/foto-gratis/anteojos-desgaste_1203-2604.jpg?size=626&ext=jpg"
     },
     {
       id: 5,
-      nombre: "Anteojos De Sol Back",
+      nombre: "Anteojos De Sol Black",
       precio: "11000$",
       urlimg:"https://img.freepik.com/fotos-premium/gafas-sol-negras-mar_42534-93.jpg?size=626&ext=jpg"
      
@@ -38,7 +38,7 @@ export const lista = [
     },
     {
       id: 6,
-      nombre: "Anteojos De Sol Rolon",
+      nombre: "Anteojos Moonshine",
       precio: "4000$",
       urlimg: "https://img.freepik.com/foto-gratis/par-gafas-sobre-superficie-blanca-fondo-azul_181624-21477.jpg?size=626&ext=jpg"
     },
