@@ -6,15 +6,17 @@ import Seccion from "./componentes/Seccion";
 import { lista } from "./utilidades/Index";
 import NavBar from "./components/NavBar.jsx";
 import React, { useState } from "react";
-import Search from "./componentes/Search";
-import SearchResults from "./componentes/SearchResults";
+/*import Search from "./componentes/Search";*/
+/*import SearchResults from "./componentes/SearchResults";*/
 import { BrowserRouter } from "react-router-dom";
 import CarouselComponent from "./componentes/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Carrito from "./componentes/Carrito";
-import ProductosDestacados from "./componentes/ProductosDestacados";
+/*import Carrito from "./componentes/Carrito";*/
+/*import ProductosDestacados from "./componentes/ProductosDestacados";*/
 import Header from "./componentes/Header";
 import CardsInfo from "./componentes/CardsInfo";
+import Footer from "./componentes/Footer";
+import Fondo from "./componentes/Fondo";
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
@@ -27,12 +29,12 @@ function App() {
   ];
   //*************************************************************** */
 
-  const handleSearch = (searchTerm) => {
+  /*const handleSearch = (searchTerm) => {
     const results = storeData.filter((product) =>
       product.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setSearchResults(results);
-  };
+  };*/
 
   return (
     <BrowserRouter>
@@ -44,18 +46,17 @@ function App() {
             <CarouselComponent />
           </div>
           <div className="containe">
-            <Search onSearch={handleSearch} />
-            <SearchResults results={searchResults} />
+            <Fondo />
           </div>
-          <h1 className="text-2x1 font-bold bg-lime-100 p-2 text-center">
-            {" "}
-            Productos Destacados
-          </h1>
-        </div>
+          <div className="containe bg-amber-100">
+           <CardsInfo />
+          </div>
+          <h2 className="card-title text-center align-middle">
+                 Productos destacados
+            </h2>
+         </div>
         <Seccion lista={lista} />
-      </div>
-      <div className="containe bg-amber-100">
-      <CardsInfo />
+        <Footer />
       </div>
     </BrowserRouter>
   );
