@@ -11,24 +11,36 @@ import Footer from './componentes/Footer';
 
 
 
-function App() {
-  return (
-    <>  
-    <NavBar/>
-    <Fondo />
-    <div> 
-   <h1 className= "w-full bg-amber-100 text-2xl font-bold p-2 text-center p-3" > Nuestros Productos</h1>
-     </div>  
-    <div className="w-full bg-amber-100">
-    <Seccion lista ={lista}/>
-    <Footer />
-    </div>
-    
-  
-  
-  </>
-    
-  );
-}
 
-export default App;
+
+  const storeData = [
+    { id: 1, name: 'Product 1' },
+    { id: 2, name: 'Product 2' },
+    { id: 3, name: 'Product 3' },
+    // ...
+  ];
+  
+  const handleSearch = searchTerm => {
+    const results = storeData.filter(product => product.name.toLowerCase().includes(searchTerm.toLowerCase()));
+    setSearchResults(results);
+  };
+
+  return (
+    <BrowserRouter>
+    <div className="w-full bg-amber-100">
+      <div className="container">
+      <NavBar />
+      <div className="jumbotron">
+      <CarouselComponent />
+       </div>
+      <div className="containe">
+        <Search onSearch={handleSearch} />
+        <SearchResults results={searchResults} />
+      </div>
+      <h1 className="text-2x1 font-bold bg-lime-100 p-2 text-center"> Productos Destacados</h1>
+      </div>
+      <Seccion lista={lista} />
+    </div>
+    </BrowserRouter>
+  );
+}export default App;

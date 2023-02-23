@@ -4,9 +4,8 @@ export const lista = [
       id: 1,
       nombre: "Anteojos De Sol Brooklyn",
       precio: "9344$" ,
-      urlimg: "https://img.freepik.com/fotos-premium/gafas-sol-redondas-reflejo-espejo-arena-playa-soleada-verano-concepto-vacaciones-viaje_367870-955.jpg?size=626&ext=jpg"
-  
-  
+      urlimg: "https://img.freepik.com/fotos-premium/gafas-sol-redondas-reflejo-espejo-arena-playa-soleada-verano-concepto-vacaciones-viaje_367870-955.jpg?size=626&ext=jpghttps://img.freepik.com/fotos-premium/gafas-sol-redondas-reflejo-espejo-arena-playa-soleada-verano-concepto-vacaciones-viaje_367870-955.jpg?size=626&ext=jpgcc"
+    
     },
     {
       id: 2,

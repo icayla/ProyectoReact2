@@ -23,6 +23,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.carousel-item img {
+  width: 300px;
+  height: auto;
+}
+
 
 .App-link {
   color: #61dafb;
