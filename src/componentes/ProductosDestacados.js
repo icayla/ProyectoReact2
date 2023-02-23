@@ -28,8 +28,7 @@ const ProductosDestacados = (props) => {
           
          </figcaption>
          <Boton/>
-       
-        
+          
          
           </figure>
           </div>

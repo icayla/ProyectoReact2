@@ -1,9 +1,21 @@
-import React from 'react'
-/* boton de carrito, todavia no utilizado */
-const Carrito = (props) => {
-  return (
-    <button onClick={()=> ""} className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"> Agregar al carrito </button>
-  )
-}
+import React from 'react';
 
-export default Carrito
+
+const Carrito = (props) => {
+  const cartItems = props.items.map((lista) => (
+    <li key={lista.id}>
+      {lista.name} - ${lista.price}
+      <button onClick={() => props.onRemove(lista)}>Remove</button>
+    </li>
+  ));
+
+  return (
+    <div>
+      <h2>Cart</h2>
+      <ul>{cartItems}</ul>
+      <p>Total: ${props.total}</p>
+    </div>
+  );
+};
+
+export default Carrito;
