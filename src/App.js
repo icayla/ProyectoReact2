@@ -10,6 +10,8 @@ import React, { useState } from "react";
 import Search from "./componentes/Search";
 import SearchResults from "./componentes/SearchResults";
 import { BrowserRouter } from 'react-router-dom';
+import CarouselComponent from './componentes/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
@@ -32,11 +34,14 @@ function App() {
       <div className="container">
       <NavBar />
       <div className="jumbotron">
+      <CarouselComponent />
+       </div>
+      <div className="containe">
         <Search onSearch={handleSearch} />
         <SearchResults results={searchResults} />
       </div>
       <h1 className="text-2x1 font-bold bg-lime-100 p-2 text-center"> Productos Destacados</h1>
-    </div>
+      </div>
       <Seccion lista={lista} />
     </div>
     </BrowserRouter>
