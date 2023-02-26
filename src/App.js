@@ -17,6 +17,8 @@ import Header from "./componentes/Header";
 import CardsInfo from "./componentes/CardsInfo";
 import Footer from "./componentes/Footer";
 import Fondo from "./componentes/Fondo";
+import cart from "./shopCart/src/cartComponets/CartContent/CartContent"
+
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
