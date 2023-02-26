@@ -42,18 +42,25 @@ function App() {
         <Header />
         <div className="container">
           <NavBar />
-          <div className="jumbotron">
-            <CarouselComponent />
-          </div>
+          
           <div className="containe">
             <Fondo />
           </div>
+          <div className="jumbotron">
+            <CarouselComponent />
+          </div>
           <div className="containe bg-amber-100">
+          <span class="placeholder col-12 bg-secondary"></span>
+          <h2 className="title text-center align-middle">
+                 Nuestras Marcas
+            </h2>
            <CardsInfo />
           </div>
-          <h2 className="card-title text-center align-middle">
+          <span class="placeholder col-12 bg-secondary"></span>
+          <h2 className="title text-center align-middle">
                  Productos destacados
             </h2>
+
          </div>
         <Seccion lista={lista} />
         <Footer />

@@ -3,8 +3,7 @@ import React from 'react';
 const CardsInfo = () => {
   return (
     <div className="row d-flex">
-      <h2 className="card-title text-center align-middle"> Algunas de nuestras Marcas</h2>
-      <div className="col flex-row">
+         <div className="col flex-row">
           <div className="card bg-light">
           <img src="https://img.freepik.com/free-photo/summer-vacation-concept-beautiful-sunglasses-with-straw-hat-sand-beach-lifestyle-toning_1220-1209.jpg?w=900&t=st=1677179225~exp=1677179825~hmac=e9324075409d0246029f315c5e082fdc4609fcb682e6a52c1a2080fbb0d0c9e3" className="card-img-top" alt="..." />
           <div className="card-body text-center">
