@@ -1,16 +1,22 @@
-import Navbar from "../Navbar/Navbar";
+
+import Navbar from "../../../components/NavBar";
 import Banner from "../Banner/Banner";
-import Products from "../Products/Products";
+import Products from "../ProductsBooks/Products"
+
+
+
 const Home = () => {
   return (
     <>
-      <Navbar />
+     <Navbar />
       <Banner />
       <div className='product-card-container'>
-        <Products />
+      <Products />
+
       </div>
     </>
   );
 };
+
 
 export default Home;

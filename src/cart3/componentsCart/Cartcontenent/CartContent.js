@@ -1,18 +1,18 @@
 import { useContext } from "react";
 import { dataContext } from "../Context/DataContext";
-
 import CartElements from "./CartElements";
-import CartTotal from "./CartTotal";
-import Navbar from "../Navbar/Navbar";
+import CartTotal from "../Cartcontenent/CartTotal"
+
 
 import "./CartContent.css";
+import Navbar from "../../../components/NavBar";
 
 const CartContent = () => {
   const { cart } = useContext(dataContext);
 
   return (
     <>
-      <Navbar />
+    <Navbar />
       {cart.length > 0 ? (
         <>
           <CartElements />

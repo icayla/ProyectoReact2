@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
 
-function Navbar() {
+ function Navbar() {
   const [clicked, setClicked] = useState(false)
   const handleClick = () => {
     //cuando esta true lo pasa a false y vice versa
@@ -38,6 +38,8 @@ function Navbar() {
 }
 
 export default Navbar
+
+
 
 const NavContainer = styled.nav`
   h2{
