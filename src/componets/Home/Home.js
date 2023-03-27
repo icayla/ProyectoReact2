@@ -14,26 +14,23 @@ const Home = () => {
     <>
       <Hearder />
       <Navbar />
-      <div className="containe">
+      <div>
         <Fondo />
       </div>
       <div className="jumbotron">
         <CarouselComponent />
       </div>
       <div className="containe bg-amber-100">
-        <span class="placeholder col-12 placeholder-lg"></span>
-        <h1 className='title text-center font-bold'>Nuestras Marcas</h1>
+    
+        <h1 className='title text-center font-bold text-2xl py-2 bg-teal-500 text-white'>Nuestras Marcas</h1>
         <CardsInfo />
-      </div>
-      <div className="containe bg-amber-100">
-        <span class="placeholder col-12 placeholder-lg"></span>
-        <h1 className='title text-center font-bold'>Productos detacados</h1>
+        <h1 className='text-2xl font-bold  py-2   bg-teal-500 text-white text-center'>Nuestros Productos</h1>
         <div className="product-card-container">
-          <Products />
-        </div>
+       <Products />
+     </div>
+     <Footer />
       </div>
-
-      <Footer />
+    
     </>
   );
 };
