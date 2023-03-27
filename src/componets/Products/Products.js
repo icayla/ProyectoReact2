@@ -16,9 +16,10 @@ const Products = () => {
     return (
       <div className='card' key={product.id}>
         <img src={product.img} alt='img-product-card' />
-        <h3>{product.name}</h3>
-        <h4>{product.price}$</h4>
-        <button onClick={() => buyProducts(product)}>buy</button>
+        <h3 className= "font-bold">{product.name}</h3>
+        <h4>${product.price}</h4>
+        <button>COMPRAR</button>
+        <button onClick={() => buyProducts(product)}>AGREGAR AL CARRITO</button>
       </div>
     );
   });

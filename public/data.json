@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Anteojos De Sol Brooklyn",
+    "price": 9344 ,
+    "img": "https://img.freepik.com/fotos-premium/gafas-sol-redondas-reflejo-espejo-arena-playa-soleada-verano-concepto-vacaciones-viaje_367870-955.jpg?size=626&ext=jpghttps://img.freepik.com/fotos-premium/gafas-sol-redondas-reflejo-espejo-arena-playa-soleada-verano-concepto-vacaciones-viaje_367870-955.jpg?size=626&ext=jpgcc",
+    "quanty": 1
+  },
+
+  {
+    "id": 2,
+    "name": "Anteojos De Sol Baker",
+     "price": 8000,
+    "img":"https://img.freepik.com/foto-gratis/gafas-sol_1203-7994.jpg?size=626&ext=jpg",
+    "quanty": 1
+  },
+  {
+    "id": 3,
+    "name": "Anteojos De Sol White",
+  "price": 10000,
+    "img": "https://img.freepik.com/foto-gratis/anteojos-desgaste_1203-2604.jpg?size=626&ext=jpg",
+    "quanty": 1
+  },
+  
+    {
+      "id": 4,
+      "name": "Anteojos De Sol Back",
+      "price": 11000,
+      "img" :"https://img.freepik.com/fotos-premium/gafas-sol-negras-mar_42534-93.jpg?size=626&ext=jpg",
+      "quanty": 1
+      
+    },
+    {
+      "id": 5,
+      "name": "Anteojos De Sol Rolon",
+      "price": 4000,
+      "img": "https://img.freepik.com/foto-gratis/par-gafas-sobre-superficie-blanca-fondo-azul_181624-21477.jpg?size=626&ext=jpg",
+      "quanty": 1
+    },
+    {
+      "id": 6,
+      "name": "Anteojos Peker",
+      "price": 9000,
+      "img": "https://img.freepik.com/free-photo/office-workplace-with-laptop-glasses-wood-table_1421-241.jpg?size=626&ext=jpg&ga=GA1.2.129850241.1677026194&semt=sph",
+      "quanty": 1
+    }
+] 
