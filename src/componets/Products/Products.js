@@ -9,7 +9,7 @@ const Products = () => {
   const { buyProducts } = useContext(dataContext);
 
   useEffect(() => {
-    axios("data.json").then((res) => setData(res.data));
+    axios ("data.json").then((res) => setData(res.data));
   }, []);
 
   return data.map((product) => {
@@ -18,6 +18,7 @@ const Products = () => {
         <img src={product.img} alt='img-product-card' />
         <h3 className= "font-bold">{product.name}</h3>
         <h4>${product.price}</h4>
+        <button>COMPRAR</button>
         <button onClick={() => buyProducts(product)}>AGREGAR AL CARRITO</button>
       </div>
     );
